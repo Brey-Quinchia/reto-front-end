@@ -1,0 +1,28 @@
+/* fALTA IMPORTA LAS FUENTES */
+div#banner{
+    border-radius: 20px;
+    background-color: #1c96d8;
+    background-image: url(../images/karsten-big.png);
+    background-position: 0% 10%;
+    width: 400px;
+    height: 60%;
+}
+#wrap-pet{
+    margin: auto;
+    transform: translateY(360%);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr)
+}
+.box-data{
+    text-align: center;
+    border-radius: 20px;
+    width: 85px;
+    background-color: aqua;
+    height: 85px;
+    opacity: 60%;
+}
+.boss{
+    width: 100px;
+    height: 100px;
+}

@@ -12,7 +12,7 @@
             background-color: #DBEFF9;
         }
     </style>
-    <!-- <script src="js/scripts.js"></script> -->
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     <main>
@@ -31,12 +31,12 @@
                 <nav class="align-center">
                     <!--? Necesito optimizar para funcionar sin JS, only css -->
                     <a href="#dog">
-                        <button class="nav-pets" id="dog-bt">Perros
+                        <button class="nav-pets" id="dog-bt" onclick="showDog()">Perros
                             <img src="assets/images/fa-solid_dog.svg" id="fat-solid" >
                         </button>
                     </a>
-                    <a href="gatos.html">
-                        <button class="nav-pets">Gatos
+                    <a href="#cat">
+                        <button class="nav-pets" id="cat-bt" onclick="showCat()">Gatos
                             <img src="assets/images/fa-solid_cat.svg" alt="" id="fat-solid">
                         </button>
                     </a>
@@ -95,6 +95,62 @@
                                 </div>
                             </div>
                         </a>
+                    </div>
+                </section>
+                <section id="cat">
+                    <div class="wrapper">
+                        <a href="showcat.html">
+                            <div class="contain-pet">
+                                <div class="img-pet">
+                                    <img src="assets/images/ariana.png" id="ariana">
+                                </div>
+                                <div class="pet-data">
+                                    <p id="name-pet">Ariana</p>
+                                    <p id="raza-pet">Graycat</p>
+                                    <p id="precio-pet">$400</p>
+                                    <p><img src="assets/images/sm-heart.svg" id="liker"></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="showcat.html">
+                            <div class="contain-pet">
+                                <div class="img-pet">
+                                    <img src="assets/images/remi.png" id="remi">
+                                </div>
+                                <div class="pet-data">
+                                    <p id="name-pet">Remi</p>
+                                    <p id="raza-pet">WhiteCat</p>
+                                    <p id="precio-pet">$400</p>
+                                    <p><img src="assets/images/sm-heart.svg" id="liker"></p>
+                                </div>
+                            </div>
+                        </a> 
+                        <a href="showcat.html">
+                            <div class="contain-pet">
+                                <div class="img-pet">
+                                    <img src="assets/images/alex.png" id="alex">
+                                </div>
+                                <div class="pet-data">
+                                    <p id="name-pet">Alex</p>
+                                    <p id="raza-pet">Siamese</p>
+                                    <p id="precio-pet">$400</p>
+                                    <p><img src="assets/images/sm-heart.svg" id="liker"></p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="showcat.html">
+                            <div class="contain-pet">
+                                <div class="img-pet">
+                                    <img src="assets/images/zoe.png" id="zoe">
+                                </div>
+                                <div class="pet-data">
+                                    <p id="name-pet">Zoe</p>
+                                    <p id="raza-pet">Persian</p>
+                                    <p id="precio-pet">$400</p>
+                                    <p><img src="assets/images/sm-heart.svg" id="liker"></p>
+                                </div>
+                            </div>
+                        </a> 
                     </div>
                 </section>
             </div> 

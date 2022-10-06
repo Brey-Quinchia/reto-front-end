@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style/image.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,28 +12,31 @@
             background: linear-gradient(to top, #77Aff9,#BDEBF7);
         }
     </style>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     <main>
         <section class="container">
             <div class="layout">
                 <nav class="align-center">
-                    <button class="slider"></button>
-                    <button class="slider"></button>
+                    <button class="slider" id="a1" onclick="slideA1()"></button>
+                    <button class="slider" id="a2" onclick="slideA2()"></button>
                 </nav>
                 <p id="big-title1">Tu mejor amigo</p>
                 <p id="big-title2">en casa!</p>
                 <p id="p1">Adoptar la mascota perfecta de mas de 700 regugios de animales...</p>
                 <div class="slide ">
-                    <img src="assets/images/slide1.png" alt="Slide 1" class="slide">
-                    <nav class="align-center">
-                        <a href="perros.html">
-                            <button id="go-it"><img src="assets/images/chevron-right.svg" alt="chevron" id="chevron"></button>
-                        </a>
-                    </nav>
+                    <img src="assets/images/slide1.png" alt="Slide 1" class="slide-up" id="sl-1">
+                    <img src="assets/images/slide2.png" alt="Slide 1" class="slide-up" id="sl-2">
                 </div>
+                <nav>
+                    <a href="pets.html">
+                        <button id="go-it"><img src="assets/images/chevron-right.svg" alt="chevron" id="chevron"></button>
+                    </a>
+                </nav>
             </div>
         </section>
+        <!-- <div id="trr"></div> -->
     </main>
 </body>
 </html>

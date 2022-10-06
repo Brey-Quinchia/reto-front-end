@@ -46,23 +46,23 @@ div.layout{
     /* padding: 10px; */
 }
 .slider{
-    background-color: #ffffff;
-    border-radius: 20px;
-    width: 20px;
-    height: 20px;
+    /* background-color: #4e93de; */
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
     border: none;
     margin: 5px;
     margin-top: 40px;
     cursor:pointer;
 }
-
+#a1{
+    background-color: #6AA5e3;
+}
 /* button.slider:active{
     background-color: #ffffff
     
 }  */
-.slider:focus{
-    background-color:#4A6DAD;
-}
+
 p{
     padding-left: 40PX;
     padding-right: 40PX;
@@ -101,25 +101,40 @@ div.slide{
     margin-top: 40px;
     width: 100%;
     height: 54%;
+    /* z-index: -9 ; */
+
 }
-img.slide{
+img.slide-up{
     border-radius: 20px;
     width: max-content;
     height: max-content;
-} 
+}
+
+#sl-1{
+    transform: translateY(5px);
+    position: relative;
+    /* z-index: 1; */
+}
+#sl-2{
+    display: none;
+}
 
 button#go-it{
     border-radius: 60px;
-    background-color: #4A6DAD;
+    background: linear-gradient(90deg, #4a6DAD, #4F97DD);
     height: 60px;
     width: 60px;
     border: none;
     /* position:relative; */
     position:relative;
-    top: -100px;
+    left: 200px;
+    top: -100PX;
+    /* transform: translateY(-20px); */
+    
     /* transition: 1s; */
 }
 button#go-it:hover{
+    transition: 0.4s;
     transform: scale(1.1)rotate(90deg);
 }
 div.header{
@@ -138,6 +153,11 @@ img#chevron-left{
     width: 40px;
     margin-left: 20px;
     margin-right: 50px;
+
+}
+#chevron-left:hover{
+    transition: 0.5s;
+    transform: translateX(-10px);
 }
 /* ! Codigo necesita optimizacion */
 div.search{
@@ -184,7 +204,7 @@ img#fat-solid{
     /* content: "Perro"; */
     border-radius:30px;
     transform: translateX(-80px);
-    background-color: #ffffff;
+    background-color: #DBEFF9;
     width: 30px;
     padding: 5px;
     height: 30px;
@@ -228,8 +248,16 @@ section#cat{
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
-    transform: translateY(-10px);
+    transform: translateY(10px);
+    /* transition: 1s; */
 }
+.img-pet:hover{
+    transition: 0.7s;
+    /* transition-delay: 5s; */
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
 
 .pet-data{
     /* padding-right: 70px; */
