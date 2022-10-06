@@ -10,7 +10,19 @@
 #sl-2{
     transform: translateY(-70px);
 }
-
+/** Damos color a las cajas contenedoras de las mascotas */
+#box-yellow{
+    background-color: #e3c069;
+}
+#box-orange{
+    background-color: #D1723F;
+}
+#box-blue{
+    background-color: #488db3;
+}
+#box-green{
+    background-color: #58c084;
+}
 #ivana{
     transform: translateY(-30px);
 }
@@ -23,7 +35,7 @@
     width: 110%;
 }
 #reigner{
-    transform: translateY(-40px);
+    transform: translateY(-45px);
 }
 /* Estilos de las imagenes de los gatos */
 #ariana{

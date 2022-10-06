@@ -7,9 +7,35 @@ div#banner{
     width: 400px;
     height: 60%;
 }
+div#banner-2{
+    border-radius: 20px;
+    background-color:#d1723f;
+    background-image: url(../images/alex-big.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50px;
+    width: 400px;
+    height: 60%;
+}
+#direction-emotion{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 20px;
+}
+#move-back{
+    width: 40px;
+}
+#move-back:hover{
+    transition: 0.7s;
+    transform: translateX(20px);
+}
+#heart-white{
+    width: 30px;
+    transform: translate(250px, 5px);
+}
+
 #wrap-pet{
     margin: auto;
-    transform: translateY(360%);
+    transform: translateY(280%);
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(4,1fr)
@@ -18,11 +44,95 @@ div#banner{
     text-align: center;
     border-radius: 20px;
     width: 85px;
-    background-color: aqua;
+    background-color:#DBEFF9;
     height: 85px;
-    opacity: 60%;
+    
+    opacity: 0.8;
+}
+#atribute-pet{
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    color: #102c5d;
+    padding: 0px;
+    z-index: 1;
+}
+#value-pet{
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    padding: 0px;
+    color: #96a2b9;
+
+    /* background-color: #2C4674; */
+}
+.adopt-data{
+    padding: 0px 20px 0px 20px;
+}
+.pet-name-adopt{
+    padding: 0px;
+    padding-top: 0PX;
+    font-family: 'Montserrat-Bold';
+    color: #2C4674;
+    font-size: 24PX;
+}
+.separate-p{
+    display: flex;
+    /* background-color: aliceblue; */
+}
+#pr-adp{
+    margin-left: 55%;
+    justify-content: right;
+}
+#raza-adp{
+    transform: translateY(-20px);
+    /* background-color: #2C4674; */
+    font-family: 'Montserrat-Medium';
+    color: #96a2b9;
+
+}
+#boss-img{
+    /* float: left; */
+    width: 80px;
+    height: 80px;
 }
 .boss{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    /* padding: 0px; */
+}
+.boss-adopt{
+    display: block;
+
+}
+#people-name-adopt{
+    padding-left: 10px;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    color: #2C4674;
+}
+#people-data-adopt{
+    padding-left: 10px;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    color: #96a2b9;
+    transform: translateY(-10px);
+}
+.center-element{
+    display: flex;
+    justify-content: center;
+}
+#to-home{
+    /* align-items: center; */
+    margin-top: 10%;
+    border-radius: 30px;
+    border: none;
+    height: 60px;
+    font-family:'Montserrat-Medium';
+    font-size: 18px;
+    color: aliceblue;
+    background-color: #58c084;
+    width: 300px;
+}
+#to-home:hover{
+    transform: scale(1.05);
+    background-color: #318c57;
+
 }
