@@ -178,38 +178,65 @@ input[type='search']{
     width: 35px;
 }
 /* !Fin de codigo por optimizar */
+/*? Codigo que necesita ser actualizado */
 
-.nav-pets{
-    /* display: block; */
-    /* background-color: #6AA5E3; */
-    border-radius: 50px;
-    border: none;
-    width: 170px;
-    height: 50px;
-    padding: 1px;
-    margin:5px;
-    /* transform: translateY(-20px); */
-    font-family: 'Montserrat-Regular';
-    /* text-align: center; */
-    /* background-image: url(assets/images/fa-solid_dog.svg) ; */
+nav.center-button-dc{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    transform: translateX(-20px);
 }
-.nav-pets:hover{
-    /* transform: translateY(-20px); */
+a.none-line{
+    text-decoration: none;
+}
+button.nav-bt{
+    padding-top: 5px;
+    display: flex;
+    border-radius: 30px;
+    border: none;
+    background: #6AA5E3;
+    margin: 0 20px;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.nav-bt:hover{
     transform: scale(1.1);
 }
-#dog-bt{
-    background-color: #6AA5e3;
-}
-img#fat-solid{
-    /* content: "Perro"; */
-    border-radius:30px;
-    transform: translateX(-80px);
-    background-color: #DBEFF9;
-    width: 30px;
-    padding: 5px;
+#fat-solid{
+    padding: 2px;
     height: 30px;
+    width: 40px;
+    border-radius: 35px;
+    /* padding: ; */
+    background-color: blanchedalmond;
 }
-
+#svg-pt{
+    transform: translateY(0px);
+    width: 30px;
+}
+#type-pet{
+    transform: translate(-20px, -5px);
+    /* background-color: #ffffff; */
+}
+#cat-bt{
+    transform: translateX(10px);
+    color: #2C4674;
+    background-color: #ffffff;
+}
+#cat-bt:hover{
+    transform: scaleY(1.1);
+}
+.pet{
+    align-self: center;
+    height: 80%;
+    border-radius: 20px;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+/*! Fin de actualizacion de codigo */
 
 section#dog{
     padding: 0px;
@@ -229,7 +256,8 @@ section#cat{
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(2,1fr)
+    grid-template-columns: repeat(2,1fr); 
+    padding-left: 10px;
 }
 .contain-pet{
     /* text-align: center; */

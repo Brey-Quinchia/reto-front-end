@@ -12,15 +12,26 @@ function slideA1(){
     document.getElementById("sl-1").style.display="block"
 }
 
-function showCat(){
+function showCat(newColor){
+    cat_bt = document.getElementById("cat-bt")
+    dog_bt = document.getElementById("dog-bt")
     document.getElementById("dog").style.display="none"
-    document.getElementById("cat-bt").style.background="#6AA5e3"
     document.getElementById("cat").style.display="block"
-    document.getElementById("dog-bt").style.background="#f1f9fd"
+    //cat_bt.style.background=newColor
+    cat_bt.style.background="#6AA5e3"
+    cat_bt.style.color="#ffffff"
+    dog_bt.style.background=newColor
+    dog_bt.style.color="#2C4674"
+    
 }
 function showDog(){
+    cat_bt = document.getElementById("cat-bt")
+    dog_bt = document.getElementById("dog-bt")
+    dog_bt.style.color="#ffffff"
+    dog_bt.style.background="#6AA5e3"
     document.getElementById("cat").style.display="none"
-    document.getElementById("cat-bt").style.background="#f1f9fd"
-    document.getElementById("dog-bt").style.background="#6AA5e3"
     document.getElementById("dog").style.display="block"
+    cat_bt.style.background="#f1f9fd"
+    cat_bt.style.color="#2C4674"
+
 }

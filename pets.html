@@ -22,25 +22,34 @@
                     <a href="index.html">
                         <img src="assets/images/chevron-left.svg" id="chevron-left">
                     </a>
+                    
                     <p id="title" class="align-center">Buscar</p>
                 </div>
+                
                 <div class="search">
                     <input type="search" placeholder="Buscar...">
                     <img src="assets/images/search.svg" id="lupa">
                 </div>
-                <nav class="align-center">
-                    <!--? Necesito optimizar para funcionar sin JS, only css -->
-                    <a href="#dog">
-                        <button class="nav-pets" id="dog-bt" onclick="showDog()">Perros
-                            <img src="assets/images/fa-solid_dog.svg" id="fat-solid" >
+                <!--? Codigo que necesita optimizacion!!! -->
+                <nav class="center-button-dc">
+                    <a href="#dog" class="none-line">
+                        <button class="nav-bt" onclick="showDog()" id="dog-bt">
+                            <div id="fat-solid">
+                                <img src="assets/images/fa-solid_dog.svg" alt="" id="svg-pt" >
+                            </div>
+                            <p id="type-pet">Perros</p>
                         </button>
                     </a>
-                    <a href="#cat">
-                        <button class="nav-pets" id="cat-bt" onclick="showCat()">Gatos
-                            <img src="assets/images/fa-solid_cat.svg" alt="" id="fat-solid">
+                    <a href="#cat" class="none-line">
+                        <button class="nav-bt" onclick="showCat('#ffffff')" id="cat-bt">
+                            <div id="fat-solid">
+                                <img src="assets/images/fa-solid_cat.svg" alt="" id="svg-pt" >
+                            </div>
+                            <p id="type-pet">Gatos</p>
                         </button>
                     </a>
                 </nav>
+                <!-- !Fin de codigo por optimizar -->
                 <section id="dog">
                     <div class="wrapper">
                         <a href="showdog.html">
