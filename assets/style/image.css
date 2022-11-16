@@ -17,6 +17,8 @@
     background-repeat: no-repeat;
     background-size:contain ;
     /* transform: translateY(-70px); */
+    animation: slide-up 2s;  
+    animation-fill-mode: forwards
 }
 #sl-2{
     transform: translateY(-100px);
@@ -30,9 +32,20 @@
     background-size:70%;
     background-repeat: no-repeat;
     background-size:cover ;
+    background-position: 0 180px;
+    animation: slide-up 2s;  
+    animation-fill-mode: forwards
     
-}
 
+}
+@keyframes slide-up {
+    from{
+        background-position: 0 180px;
+    }
+    to{
+        background-position: 0 0px;
+    }
+}
 
 /** Damos color a las cajas contenedoras de las mascotas */
 #box-yellow{
