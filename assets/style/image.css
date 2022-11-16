@@ -7,9 +7,30 @@
     
 }
 
-#sl-2{
-    transform: translateY(-70px);
+#sl-1{
+    transform: translateY(5px)  ;
+    border-radius: 20px;
+    /* background-color: #58c084; */
+    width: 100%;
+    height: 95%;
+    background-image: url(../images/slide1.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    /* transform: translateY(-70px); */
 }
+#sl-2{
+    /* visibility: hidden; */
+    display: none;
+    border-radius: 20px;
+    /* background-color: #58c084; */
+    width: 100%;
+    height: 95%;
+    background-image: url(../images/slide2.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    /* transform: translateY(-70px); */
+}
+
 /** Damos color a las cajas contenedoras de las mascotas */
 #box-yellow{
     background-color: #e3c069;

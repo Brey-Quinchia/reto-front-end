@@ -105,19 +105,18 @@ div.slide{
 
 }
 img.slide-up{
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: max-content;
     height: max-content;
 }
 
-#sl-1{
+/* #sl-1{
     transform: translateY(5px);
     position: relative;
-    /* z-index: 1; */
 }
 #sl-2{
     display: none;
-}
+} */
 
 button#go-it{
     border-radius: 60px;

@@ -2,14 +2,16 @@
 function slideA2(){
     document.getElementById("a1").style.background="#ffffff"
     document.getElementById("a2").style.background="#4E93DE"
-    document.getElementById("sl-1").style.display="none"
-    document.getElementById("sl-2").style.display="block"
+    document.getElementById("sl-1").style.display= 'none'
+    document.getElementById("sl-2").style.display= 'block'
+
 }
 function slideA1(){
     document.getElementById("a2").style.background="#ffffff"
     document.getElementById("a1").style.background="#4E93DE"
-    document.getElementById("sl-2").style.display="none"
-    document.getElementById("sl-1").style.display="block"
+    document.getElementById("sl-1").style.display= 'block'
+    document.getElementById("sl-2").style.display= 'none'
+
 }
 
 function showCat(newColor){
