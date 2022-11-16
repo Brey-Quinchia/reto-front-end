@@ -19,17 +19,20 @@
     /* transform: translateY(-70px); */
 }
 #sl-2{
+    transform: translateY(-100px);
     /* visibility: hidden; */
     display: none;
     border-radius: 20px;
     /* background-color: #58c084; */
     width: 100%;
-    height: 95%;
+    height: 120%;
     background-image: url(../images/slide2.png);
+    background-size:70%;
     background-repeat: no-repeat;
-    background-size:contain ;
-    /* transform: translateY(-70px); */
+    background-size:cover ;
+    
 }
+
 
 /** Damos color a las cajas contenedoras de las mascotas */
 #box-yellow{
