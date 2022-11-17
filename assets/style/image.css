@@ -17,11 +17,11 @@
     background-repeat: no-repeat;
     background-size:contain ;
     /* transform: translateY(-70px); */
-    animation: slide-up 2s;  
+    animation: slide-up 1.5s;  
     animation-fill-mode: forwards
 }
 #sl-2{
-    transform: translateY(-100px);
+    transform: translateY(-103px);
     /* visibility: hidden; */
     display: none;
     border-radius: 20px;
@@ -32,8 +32,8 @@
     background-size:70%;
     background-repeat: no-repeat;
     background-size:cover ;
-    background-position: 0 180px;
-    animation: slide-up 2s;  
+    background-position: 0 170px;
+    animation: slide-up 1.5s;  
     animation-fill-mode: forwards
     
 

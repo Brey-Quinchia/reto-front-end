@@ -1,5 +1,6 @@
 body{
     background-color: rgb(255, 239, 218);
+    overflow: hidden;
 }
 @font-face {
     font-family: 'Montserrat-Regular';
@@ -21,6 +22,7 @@ a{
     color:#2C4674;
 }
 section.container{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
